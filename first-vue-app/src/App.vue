@@ -6,10 +6,14 @@ import FormMain from './components/Form.vue'
 
 <template>
   <MainNav />
-  <FormMain />
+  
 </template>
 
 <style scoped>
+body {
+  background-color: #121212; /* Dark gray */
+  color: #FFFFFF; /* White */
+}
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -18,10 +22,10 @@ import FormMain from './components/Form.vue'
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #64FFDA); /* Teal */
 }
 
 .logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+  filter: drop-shadow(0 0 2em #64FFDA); /* Teal */
 }
 </style>
